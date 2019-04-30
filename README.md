@@ -1,6 +1,7 @@
 # COMP90042_Project_Automatic_Fact_Verification
 This is the project of COMP90042 Web Search and Analysis. Group work by 2 master students.
 
+---
 ### JSON Files Structure
 
 ```
@@ -12,7 +13,6 @@ This is the project of COMP90042 Web Search and Analysis. Group work by 2 master
 		["Nikolaj_Coster-Waldau", 7]
 	]
 }
-
 ```
 <ul>
 	<li><strong>claim</strong>: a fact that needs to verificate.</li>
@@ -30,6 +30,7 @@ This is the project of COMP90042 Web Search and Analysis. Group work by 2 master
 		</ul>
 </ul>
 
+---
 ### Verification Process
 
 `>python score.py devset.json random-devset.json`
@@ -39,6 +40,7 @@ This is the project of COMP90042 Web Search and Analysis. Group work by 2 master
 <br/>
 In this project, we need edit the content of ``random-devset.json`` and increase the performance of the prediction system.<br/>
 
+---
 ### Report Requirements
 <ul>
 	<li>the description, analysis, and comparative assessment (where applicable) of methods used</li>

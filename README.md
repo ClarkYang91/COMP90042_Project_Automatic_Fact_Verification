@@ -50,3 +50,10 @@ In this project, we need edit the content of ``random-devset.json`` and increase
 	<li>also report your relative performance on the <strong>codalab leaderboard</strong></li>
 	<li>(<strong>optional</strong>) discuss what steps you might take next if you were to continue development of your system</li>
 </ul>
+
+
+### Ongoing Improvement
+<ul>
+	<li>Learning-to-Ranking: after retrieval top-K documents, use machine learning method to determine how many documents are the relevant evidence for this claim. It is better than just use the BM25 to select document.</li>
+	
+</ul>
